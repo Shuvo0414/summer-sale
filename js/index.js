@@ -42,7 +42,7 @@ function applyBtn (){
          const discountedAummont = parseInt(total) * 0.20;
          const fiexdDiscountAmount = discountedAummont.toFixed(2);
          const discountTotal = parseFloat(total) - fiexdDiscountAmount;
-         console.log(fiexdDiscountAmount, discountTotal);
+        //  console.log(fiexdDiscountAmount, discountTotal);
 
          const discountAmountArea = document.getElementById('discount-amount');
          discountAmountArea.innerText = fiexdDiscountAmount + 'TK';
@@ -56,7 +56,6 @@ function applyBtn (){
 
 document.getElementById('go-home-btn').addEventListener('click', function(){
     location.reload();
-    
 })
 
 
