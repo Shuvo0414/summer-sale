@@ -362,7 +362,7 @@
                         <input id="coupon-field"
                             class="rounded-lg border border-s-orange-50 text-xl px-2 font-normal h-[40px] ml-3" type=""
                             placeholder="Coupon code">
-                        <button id="apply-btn" disabled
+                        <button onclick="applyBtn()" id="apply-btn" disabled
                             class="bg-[#E527B2] rounded-lg px-5 py-2 text-white hover:bg-pink-600 disabled:opacity-60">Apply</button>
                     </div>
                 </div>
@@ -374,11 +374,12 @@
                     <div>
                         <p id="" class="text-2xl font-medium ml-3 lg:ml-6">Total price: <span id="total-price"
                                 class="text-2xl font-normal text-[#11111180]"></span>
-                            
+
                         </p>
                         <p class="text-2xl font-medium ml-3 lg:ml-6">Discount: <span id="discount-amount"
                                 class="text-2xl font-normal text-[#11111180]"></span></p>
-                        <p class="text-2xl font-medium ml-3 lg:ml-6">Total:</p>
+                        <p class="text-2xl font-medium ml-3 lg:ml-6">Total: <span id="discount-total"
+                                class="text-2xl font-normal text-[#11111180]"></span></p>
                         <hr class="border w-64 lg:w-[294px] mx-auto mt-5">
 
                     </div>
